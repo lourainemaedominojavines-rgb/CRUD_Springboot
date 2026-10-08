@@ -1,4 +1,4 @@
-package com.example.firstspringbootapp.service;
+package com.example.csit321g2.service;
 
 import java.util.List;
 import java.util.NoSuchElementException;
@@ -6,14 +6,14 @@ import java.util.NoSuchElementException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.example.firstspringbootapp.entity.ItemEntity;
-import com.example.firstspringbootapp.exception.NameNotFoundException;
-import com.example.firstspringbootapp.repository.ItemRepository;
+import com.example.csit321g2.entity.ItemEntity;
+import com.example.csit321g2.exception.NameNotFoundException;
+import com.example.csit321g2.repository.ItemRepository;
 
 @Service
 public class ItemService {
     @Autowired
-    private final ItemRepository irepo;
+    ItemRepository irepo;
 
     public ItemService(ItemRepository irepo) {
     // TODO Auto-generated constructor stub

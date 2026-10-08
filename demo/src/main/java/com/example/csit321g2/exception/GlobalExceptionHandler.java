@@ -1,4 +1,4 @@
-package com.example.firstspringbootapp.exception;
+package com.example.csit321g2.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

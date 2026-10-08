@@ -1,4 +1,4 @@
-package com.example.firstspringbootapp.exception;
+package com.example.csit321g2.exception;
 
 public class NameNotFoundException extends RuntimeException {
     public NameNotFoundException(String message) {

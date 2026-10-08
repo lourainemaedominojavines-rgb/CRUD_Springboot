@@ -1,20 +1,20 @@
-package com.example.firstspringbootapp.controller;
+package com.example.csit321g2.controller;
 
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-import com.example.firstspringbootapp.entity.ItemEntity;
-import com.example.firstspringbootapp.service.ItemService;
+import com.example.csit321g2.entity.ItemEntity;
+import com.example.csit321g2.service.ItemService;
 
 @RestController
 //@RequestMapping(method=RequestMethod.GET, path="/item/api")
 @RequestMapping("/item/api")
-@CrossOrigin(origins = "http://localhost:3307")
+@CrossOrigin(origins = "http://localhost:3306")
 
 public class ItemController {
     @Autowired
-    private final ItemService iserv;
+    ItemService iserv;
 
     public ItemController(ItemService iserv) {
         // TODO Auto-generated constructor stub
@@ -23,7 +23,7 @@ public class ItemController {
 
 @GetMapping("/printAuthor")
 public String printAuthor() {
-    return "Louraine Mae D. Javines";
+    return "Leah V. Barbaso";
 }
 
 //C - Create
