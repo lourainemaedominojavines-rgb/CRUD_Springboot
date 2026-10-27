@@ -17,7 +17,6 @@ public class ItemController {
     ItemService iserv;
 
     public ItemController(ItemService iserv) {
-        // TODO Auto-generated constructor stub
         this.iserv = iserv;
 }
 

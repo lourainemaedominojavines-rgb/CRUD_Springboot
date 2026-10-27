@@ -1,0 +1,12 @@
+http://localhost:8080/item/api/printAuthor
+
+http://localhost:8080/item/api/getAllItems
+
+http://localhost:8080/item/api/postNewItem
+
+http://localhost:8080/item/api/putItem
+
+http://localhost:8080/item/api/deleteItem
+
+Another Method is through Thunder Client extension
+

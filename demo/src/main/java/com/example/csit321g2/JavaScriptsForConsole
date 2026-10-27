@@ -1,0 +1,39 @@
+postNewItem
+// fetch('http://localhost:8080/item/api/postNewItem', {
+//   method: 'POST',
+//   headers: {
+//     'Content-Type': 'application/json'
+//   },
+//   body: JSON.stringify({
+//     name: "Eraser",
+//     unit: "Piece",
+//     price: 5.00
+//   })
+// })
+// .then(response => response.json())
+// .then(data => console.log("Success:", data))
+// .catch(error => console.error("Error:", error));
+
+putItem
+// fetch('http://localhost:8080/item/api/putItem?id=1', {
+//   method: 'PUT',
+//   headers: {
+//     'Content-Type': 'application/json'
+//   },
+//   body: JSON.stringify({
+//     name: "Ballpen (Updated)",
+//     unit: "Box",
+//     price: 120.00
+//   })
+// })
+// .then(response => response.jsson())
+// .then(data => console.log("Update Success:", data))
+// .catch(error => console.error("Error:", error));
+
+deleteItem
+// fetch('http://localhost:8080/item/api/deleteItem/1', {
+//   method: 'DELETE'
+// })
+// .then(response => response.text())
+// .then(data => console.log("Delete Success:", data))
+// .catch(error => console.error("Error:", error));
